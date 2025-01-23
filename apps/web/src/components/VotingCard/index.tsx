@@ -39,12 +39,20 @@ const VotingCard = ({
 
   // TODO: Remove this once we have a way to rename projects
   const mapping: { [key: string]: string } = {
+    // Season 2
     Lee: "Zenidrop by Lee",
     "Bruno & team": "AstroBlock by Bruno team",
     SenSpace: "SenSpace by SenSpace team",
     MarkCarey: "Pixel Nouns by Mark",
     "Dayitva & team": "Superboring Incentive by Dayitva team",
     "Nikku & team": "Buzzfi by Nikko team",
+    // Season 3
+    Nezzar: "Nezzar: Astroblock V2",
+    "Giovanni & Dayitva": "Giovanni & Dayitva: Streamline Agent",
+    Dhruv: "Dhruv: Pipegate",
+    "Efrain & Shreyas": "Efrain & Shreyas: FluidFunds",
+    "Mark & Lee": "Mark & Lee: Streme.fun",
+    QinHao: "QingHao: DeepFlow",
   };
 
   const renamedProjects = randomizedProjects.map((project) => ({
